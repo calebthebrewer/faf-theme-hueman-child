@@ -4,7 +4,7 @@ Theme URI: http://alxmedia.se/themes/hueman/
 Version: 1.0.0
 Description: A child theme for Alx Hueman made especially for the <a href="faf.org">Friendship Ambassador Foundation</a>.
 Author: Caleb Brewer
-Template: faf-theme-hueman
+Template: hueman
 Tags: light, one-column, two-columns, three-columns, right-sidebar, left-sidebar, fluid-layout, fixed-layout, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 
 	Copyright: (c) 2013 Alexander "Alx" Agnarson
@@ -12,10 +12,44 @@ Tags: light, one-column, two-columns, three-columns, right-sidebar, left-sidebar
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-@import url("../faf-theme-hueman/style.css");
+@import url("../hueman/style.css");
 
 .site-description {
+
+}
+
+.site-title-wrap img {
+	float: left;
+	height: 120px;
+	width: 120px;
+}
+
+.site-title-wrap a {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.site-title-wrap h1,
+.site-title-wrap h2 {
+	color: white;
 	font-style: normal;
-	color: #fff;
-	font-weight: bold;
+	line-height: 1.4em;
+}
+
+.site-title-wrap h1 {
+	margin-top: 25px;
+	font-size: 1.4em;
+}
+
+.site-title-wrap h2 {
+	font-size: 1.2em;
+}
+
+.site-title-wrap .special-description {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.site-title-wrap .special-description h3 {
+	color: #3391B2;
 }
